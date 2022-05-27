@@ -1,0 +1,12 @@
+.card{
+    border: none;
+}
+.cardmenu{
+    border: none;
+    border-radius: 20px;
+    height: 250px;
+    border: 10px solid #DBDFFD;
+    /* -webkit-box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75); */
+}
