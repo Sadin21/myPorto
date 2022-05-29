@@ -1,5 +1,19 @@
-.card{
-    border: none;
+.cardrow{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardrow div{
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;    
+}
+.cardrow div:hover {
+    transform: translateY(-16px) rotate(3deg);
+}
+.cardrow div:hover ~ div {
+    transform: translateX(130px);
 }
 .cardmenu{
     border: none;

@@ -2,7 +2,7 @@ import '../style/CardMenu.css'
 
 const CardMenu = () => {
     return(
-        <div class="row m-5">
+        <div class="row m-5 cardrow">
             <div class="col-sm-3">
                 <div class="card">
                     <div class="card-body cardmenu">
